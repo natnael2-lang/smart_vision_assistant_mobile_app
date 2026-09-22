@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SmartVision",
+    "slug": "smartvision-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#0f172a",
+    "splash": {
+      "backgroundColor": "#0f172a",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "permissions": ["CAMERA"],
+      "package": "com.qgis.smartvisionmobile",
+      "backgroundColor": "#0f172a"
+    },
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "SmartVision needs camera access to detect objects and read text around you.",
+          "enableMicrophonePermission": false
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to detect obstacles and read text aloud."
+      }
+    }
+  }
+}

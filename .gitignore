@@ -1,0 +1,54 @@
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+android/
+ios/
+
+# Node
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.pnpm-debug.log*
+
+# Metro / bundler
+.metro-health-check*
+*.jsbundle
+
+# TypeScript
+*.tsbuildinfo
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model file (large binary — distribute separately, don't commit to git)
+src/assets/*.tflite
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+
+# Testing
+coverage/
+
+# Misc Expo
+.expo/
+*.orig.*
+web-build/
